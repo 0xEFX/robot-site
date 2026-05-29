@@ -42,16 +42,7 @@
     grid-template-rows: auto;
 }
 
-/*  
-*   when side navigation is not hidden, use a two column grid.  
-*   if the screen is too narrow, fall back to the initial one column grid layout.
-*   in this case the main content will be placed under the navigation panel. 
-*/
-@media only screen and (min-width: 70em) {
-    .terminal-mkdocs-main-grid {
-        grid-template-columns: 4fr 9fr;
-    }
-}</style>
+</style>
 
 <!-- cursor_animation override -->
 <style>
@@ -153,75 +144,7 @@
 </div>
         
     <div class="container">
-        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
-    <ul class="terminal-mkdocs-side-nav-items">
-        
-          <li class="terminal-mkdocs-side-nav-li">
-    
-    
-    
-        
-        <span class="terminal-mkdocs-side-nav-item--active"></span>
-    
-    
-    
-       </li>
-        
-          <li class="terminal-mkdocs-side-nav-li">
-    
-    
-    
-        
-        
-            <a class="terminal-mkdocs-side-nav-item" href="about/">About</a>
-        
-    
-    
-    
-       </li>
-        
-          <li class="terminal-mkdocs-side-nav-li">
-    
-    
-    
-        
-        
-            <a class="terminal-mkdocs-side-nav-item" href="blog/">Blog</a>
-        
-    
-    
-    
-       </li>
-        
-          <li class="terminal-mkdocs-side-nav-li">
-    
-    
-    
-        
-        
-            <a class="terminal-mkdocs-side-nav-item" href="book/">Book</a>
-        
-    
-    
-    
-       </li>
-        
-          <li class="terminal-mkdocs-side-nav-li">
-    
-    
-    
-        
-        
-            <a class="terminal-mkdocs-side-nav-item" href="podcast/">Podcast</a>
-        
-    
-    
-    
-       </li>
-        
-    </ul>
-</nav>
-</aside>
+        <div class="terminal-mkdocs-main-grid">
             <main id="terminal-mkdocs-main-content">
 <section id="mkdocs-terminal-content">
     <h1 id="patched-atlas">Patched Atlas</h1>
@@ -234,13 +157,26 @@
 
             </main>
         </div>
-        <hr><footer>
+        <hr>
+<footer class="md-footer">
+
+  <p>
+    Contact:
+    <a href="mailto:admin@patchedatlas.com">
+      admin@patchedatlas.com
+    </a>
+  </p>
+
+  <footer>
     <div class="terminal-mkdocs-footer-grid">
         <div id="terminal-mkdocs-footer-copyright-info">
              Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
         </div>
     </div>
 </footer>
+
+</footer>
+
     </div>
 
     
