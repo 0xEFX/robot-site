@@ -1,11 +1,13 @@
-# A PhD in website form
+# Patched Atlas
 
-This site exists to be a more readable version of the PhD material available in the base github repo.
+Welcome to Patched Atlas.
 
-In short:
+If you're interested in the podcats of Effex (Probably), you can find the feed under the podcast section.
 
-    Github => Work Tracking and Traceability
-    Website => Readability of Work
+You can also find his blogs under the blog section.
 
-Content to follow. I'm just customizing the theme as of right now.
+If you're interested in the writing of Dorian Roland, you can find these under books.
+
+If you've stumbled across this website by accident, might we interest you in some blogs by ProbablyEffex or a book by Dorian Roland?
+
 

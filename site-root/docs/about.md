@@ -1,0 +1,9 @@
+# A thinly veiled guise.
+
+Brains are a funny thing. My brain runs on praise, but is awkward about accepting praise. It wants to share things I do, but also won't allow me to do so without layers of abstraction.
+
+This is one of them. I cannot advertise my work myself, either blogs or podcasts or books.
+
+But what I can do is invent Patched Atlas, which is an extension of the nom-de-plume idea. It acts as a buffer between myself and my work, so I can freely advertise it without feeling like I'm boasting or bragging or begging for attention.
+
+Brains are a funny thing. This is just how I hack mine.

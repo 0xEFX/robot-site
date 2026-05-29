@@ -1,10 +1,11 @@
-site_name: Probably A PhD Tracker
+site_name: Patched Atlas
 
 theme:
   name: terminal
   palette: gruvbox_dark
+  custom_dir: overrides
   features:
-    - navigation.side.indexes
+    - navigation.side.hide
     - navigation.top.cursor_animation.hide
     - navigation.side.toc.hide
 
@@ -14,27 +15,9 @@ theme:
 
 nav:
 - Index: index.md
-- Cyclic Innovation:
-  - Cyclic Innovation (Index): phd/Cyclic_Innovation/index.md
-  - Cyclic Nature: phd/Cyclic_Innovation/Cyclic_nature.md
-  - Cyclic Nature Presentation: phd/Cyclic_Innovation/Cyclic_nature_presentation.md
-  - Degradation Of Some: phd/Cyclic_Innovation/Degredation_of_SoMe.md
-  - Literature Review: phd/Cyclic_Innovation/literature-review.md
-  - Research Log: phd/Cyclic_Innovation/research_log.md
-- Dead Internet Theory:
-  - Dead Internet Theory (Index): phd/Dead_Internet_Theory/index.md
-  - GPTd Outline: phd/Dead_Internet_Theory/GPTd_outline.md
-  - Articles: phd/Dead_Internet_Theory/articles.md
-  - Brainstorm: phd/Dead_Internet_Theory/brainstorm.md
-  - Clickfarms: phd/Dead_Internet_Theory/clickfarms.md
-  - Corporate Social Responsibility: phd/Dead_Internet_Theory/corporate_social_responsibility.md
-  - Data Traffic: phd/Dead_Internet_Theory/data_trafic.md
-  - Fox Links: phd/Dead_Internet_Theory/fox_links.md
-  - Init: phd/Dead_Internet_Theory/init.md
-  - PoC News Gen: phd/Dead_Internet_Theory/poc_news_gen_flow.md
-  - Scratch: phd/Dead_Internet_Theory/scratch.md
-- Misc:
-  - How to Research: phd/Misc/how_to_research.md
+- About: about.md
+- Blog: blog/index.md
+- Book: book.md
+- Podcast: podcast.md
 
-
-site_url: https://0xefx.github.io/phd-track/
+site_url: https://patchedatlas.com
