@@ -18,6 +18,6 @@ nav:
 - About: about.md
 - Blog: blog/index.md
 - Book: book.md
-- Podcast: podcast.md
+- Podcast: podcast/episodes.md
 
 site_url: https://patchedatlas.com
