@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <atom:link href="https://patchedatlas.com/podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Patched Atlas</title>
+    <link>https://patchedatlas.com</link>
+    <description>A podcast about technology, security and privacy.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jun 2026 07:05:07 +0000</lastBuildDate>
+    <itunes:author>ProbablyEffex</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>ProbablyEffex</itunes:name>
+      <itunes:email>admin@patchedatlas.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://patchedatlas.com/img/podcast_cover.png" />
+    <image>
+      <url>https://patchedatlas.com/img/cover.png</url>
+      <title>Patched Atlas</title>
+      <link>https://patchedatlas.com</link>
+    </image>
+    <itunes:category text="Technology" />
+    <item>
+      <title>AI is killing LinkedIn, and That's Okay.</title>
+      <description>AI has been accused of a lot of things, but let's not discount the driving force behind AI..</description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://media.patchedatlas.com/episodes/2026-06-01-episode-001.mp3</guid>
+      <enclosure url="https://media.patchedatlas.com/episodes/2026-06-01-episode-001.mp3" length="15111672" type="audio/mpeg" />
+      <itunes:title>AI is killing LinkedIn, and That's Okay.</itunes:title>
+      <itunes:author>ProbablyEffex</itunes:author>
+      <itunes:duration>00:16:25</itunes:duration>
+      <itunes:summary>AI has been accused of a lot of things, but let's not discount the driving force behind AI..</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>001</itunes:episode>
+    </item>
+  </channel>
+</rss>
