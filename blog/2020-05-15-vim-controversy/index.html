@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.8.0">
+     
+     
+    
+    <link rel="canonical" href="https://patchedatlas.com/blog/2020-05-15-vim-controversy/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Controvery: Vim sucks - Patched Atlas</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- gruvbox_dark color palette -->
+<link href="../../css/palettes/gruvbox_dark.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+</style>
+
+<!-- cursor_animation override -->
+<style>
+  #mkdocs-terminal-site-name.terminal-prompt::after {
+      display: none;
+  }
+</style>
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "../..",
+    shortcuts = "{}";
+</script>
+<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="https://patchedatlas.com/" class="no-style">Patched Atlas</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Index</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../about/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">About</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Blog</span>
+                    </a>
+                    <meta property="position" content="2">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../book/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Book</span>
+                    </a>
+                    <meta property="position" content="3">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../podcast/episodes/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Podcast</span>
+                    </a>
+                    <meta property="position" content="4">
+                </li>
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="5">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid">
+            <main id="terminal-mkdocs-main-content">
+    
+    
+    
+    
+    
+
+<section id="mkdocs-terminal-content">
+    <p>I understand this is going to be a somewhat divisive topic. Vim is something akin to Marmite. You either love it or you hate it. Only that's not entirely true. It's more like a one-sided relationship. Vim is something exciting and unapproachable. You start to work with it. Devote hours and hours of your time to learning its quirks and oddities, and in the end, how are you repaid?</p>
+<p>You get to use a text editor.</p>
+<p>For the less technically minded people, let's start our discussion with text editors. What are they. Most of you can press your windows key and type "notepad" and bring one up. To shamelessly pilfer from Wikipedia:</p>
+<blockquote>
+<p>A text editor is a type of computer program that edits plain text. Such programs are sometimes known as "notepad" software, following the naming of Microsoft Notepad. Text editors are provided with operating systems and software development packages, and can be used to change files such as configuration files, documentation files and programming language source code.</p>
+</blockquote>
+<p>If I might append a little something: Text editors are the most basic of systems on your PC. And lots of nerds swear by them. It's why there's such a hot debate over which editor is the best, and everyone has their own horse in the race. A race in which there is no prize.</p>
+<p>I'm somewhat controversial amongst most nerds for this very reason: I like my text editors simple. Intuitive. On my servers, I use Nano. Nano is a text editor that comes packaged with most linux distributions that is comically simple to use. Any idiot can pick it up and use it within minutes. The learning curve is non existent.</p>
+<p>Vim is the other end of the scale. It is a fully featured editing environment, right there in your command line. Which is great. Unless you've never used it before (or it's any time after 1993.) As a text editor, the first thing I want to do is edit text. When you load a file in Vim, however, the first thing you have to do is figure out how to pull up some kind of help interface to figure out how to switch to insert mode. Because this text editor defaults to you not being able to enter text. Which is weird.</p>
+<p>The whole program follows this staggering pattern of lacking intuition or basic sense. Every simple task Nano is difficult with Vim. Even the people who like the program agree. They talk about how difficult the program is to use. How you can do so many things, if you just spend hundreds hours becoming proficient in the program. In a text editor. I became proficient in Sublime Text 3 (my current choice of text editor) in about 8 minutes. It all begs one question.</p>
+<p>Why? Why bother? Why go to such extents to learn what is, essentially, notepad on steroids?</p>
+<p>The answers I have received have been somewhat unimpressive. It's mostly a hipster-like mentality of wanting to use a tool that is different. Subjecting oneself to something unpleasant for the sake of standing out from a crowd. Vim users wear their obsession like a badge of honor. Personally, I feel it makes them the nerd equivalent of a reality TV show star. Desperate for attention. Using an overly complicated tool to separate themselves when nothing else can.</p>
+<p>On the program itself: The saying is that Vim has a steep learning curve. I disagree. Vim has an attitude problem. Vim was released in 1991, based on a port of an Amiga editor, by people who couldn't see the importance that UIs were going to play in the evolution of computers. It makes no compromises for usability, because it hails from an era where such things were not required. Now it sits on all linux distributions. Out of date. Out of use. And yet, like a cantankerous old asshole who sits on his lawn yelling at everyone passing by; too stubborn to die.</p>
+<p>I'm not going to post this anywhere. I know it would bring the Vim subreddit out in force, waving around their pitchforks. Fortunately those pitchforks would have overly-long handles, too short tines and be needlessly difficult to use, but they'd still swear blind that it's the best damn pitchfork, if only you spend a few weeks of your life learning how to use it.</p>
+<p>Disagree? Feel free to press the dislike button below. (In my original blog I had like/dislike buttons that said did nothing other than flash a message saying "Your opinions do not matter." Not implemented here... yet.)</p>
+</section>
+
+<section id="mkdocs-terminal-after-content">
+    
+</section>
+
+            </main>
+        </div>
+        <hr>
+<footer class="md-footer">
+
+  <p>
+    Contact:
+    <a href="mailto:admin@patchedatlas.com">
+      admin@patchedatlas.com
+    </a>
+  </p>
+
+  <footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+
+</footer>
+
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>

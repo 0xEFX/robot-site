@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.8.0">
+     
+     
+    
+    <link rel="canonical" href="https://patchedatlas.com/blog/2021-06-19-are-cookies-stalking/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Are cookies stalking? - Patched Atlas</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- gruvbox_dark color palette -->
+<link href="../../css/palettes/gruvbox_dark.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+</style>
+
+<!-- cursor_animation override -->
+<style>
+  #mkdocs-terminal-site-name.terminal-prompt::after {
+      display: none;
+  }
+</style>
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "../..",
+    shortcuts = "{}";
+</script>
+<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="https://patchedatlas.com/" class="no-style">Patched Atlas</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Index</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../about/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">About</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Blog</span>
+                    </a>
+                    <meta property="position" content="2">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../book/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Book</span>
+                    </a>
+                    <meta property="position" content="3">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../podcast/episodes/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Podcast</span>
+                    </a>
+                    <meta property="position" content="4">
+                </li>
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="5">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid">
+            <main id="terminal-mkdocs-main-content">
+    
+    
+    
+    
+    
+
+<section id="mkdocs-terminal-content">
+    <p>Cookies have bothered me for a long time. Okay perhaps not that long. For most of their existence, they sat quietly in the background and I gave them almost no thought.</p>
+<p>But when I started my short stint in Digital Marketing around the dawn of GDPR, they were thrust rather unceremoniously into the spotlight. I started to become <strong>very</strong> concerned by what I saw.</p>
+<h2 id="what-are-cookies">What are cookies?</h2>
+<p>For the completely un-initiated, cookies are basically a packet of information we receive from websites we visit, that we send back. They're not inherently bad. Most of them have legitimate uses. For example authentication. You don't want to type your password every time you log into Facebook, for whatever reason. You tick the box that says "remember my login plx". Facebook does this by sending you an authentication cookie. You store that cookie, and while you retain and it is not out of date or invalid, your login is remembered. Harmless, really. (Or not, based on the countless cookie attack vectors we've seen over recent years, but we'll talk about that another day.)</p>
+<p>The concern here is with one specific type of cookie. Third Party tracking cookies. If a First Party cookie is one sent to us by the site we visit, Third Party cookies are sent to us by a site we've never heard of. Advertising backbone sites. Marketing Automation Systems. We visit a specific website, they send us a cookie from their third party platform. The following is F-Secure's definition of a tracking cookie.</p>
+<blockquote>
+<p>Tracking cookies are a specialized type of cookie that can be shared by more than one website or service. They are commonly used for legitimate marketing and advertising purposes, but because they contain a history of the user's actions on multiple sites, they may be exploited or misused to track the user's behavior.</p>
+</blockquote>
+<p>As you can read, they "contain a history of user's actions on multiple sites". Essentially, an invisible backbone of systems collects data about your internet use, trades and sells this data to advertisers to make their marketing more specific to <strong>you</strong>.</p>
+<h2 id="what-about-gdpr">What about GDPR?</h2>
+<p>If you're lucky enough to live in the EU, one of the few entities with the means, knowledge and will to actually stand up to tech giants and advertisers, you'll know of GDPR. The basic idea was that "People should not be tracked without their knowledge or consent."</p>
+<p>It's a great idea, in theory. In practice what it did was cripple the internet for millions of Europeans.</p>
+<p>Every time someone in Europe visits a website in modern times, they're assaulted by a permissions request. Some of these are well made and give two clear options. "I consent to cookies, tracking and otherwise" or "I do not consent."</p>
+<p>Others are still more sensible, giving the option to only consent to 'required' cookies like the Authentication cookies we've discussed earlier.</p>
+<p>But most websites found ways around it using dark patterns, which is to say they made opting out needlessly complicated, intending to force decision fatigue upon visitors who, in frustration, will just click "accept all".</p>
+<p>One of which is the "Accept All" or "Customize Cookies" approach, that gives a long list of cookies to opt in or out. That's fine for people like me, but your average user will not want to customize such cookies. And worst still are the sites which simply state "By browsing here, you agree to any bullshit cookies we or our third party money grinding platform sends, and if you don't like it, fuck off."</p>
+<h2 id="but-why-the-click-baity-title">But why the click-baity title?</h2>
+<p>I believe, in the wake of GDPR, something rather curious happened. The law of the country in which I live, translated into English, states the following about stalking:</p>
+<blockquote>
+<p>Who repeatedly menaces, follows, monitors, contacts or otherwise in a comparable manner wrongfully persecutes another so that it is conducive to causing fear or anxiety in the persecuted, shall be sentenced, unless a penalty as severe or more severe is decreed elsewhere in the law, for persecution to a fine or at most two years of imprisonment.</p>
+</blockquote>
+<p>Tracking cookies repeatedly follow, monitor and contact us. They ask for our permission, consistently, badgering and nagging us with every single website we visit. Personally, I've become more annoyed and impatient with the internet because of the constant demand for my permission to track me on <strong>every single</strong> website I've visited in two years, and I'm technically minded. I'm sure this is causing anxiety and fear in people forced to use computers for their every day life and yet not accustomed to their ins and outs. Those who can never be sure whether they have clicked on the correct thing.</p>
+<p>Therefore, in my opinion, all marketers and advertising agencies relying on third party tracking cookies in the EU are currently guilty of stalking.</p>
+</section>
+
+<section id="mkdocs-terminal-after-content">
+    
+</section>
+
+            </main>
+        </div>
+        <hr>
+<footer class="md-footer">
+
+  <p>
+    Contact:
+    <a href="mailto:admin@patchedatlas.com">
+      admin@patchedatlas.com
+    </a>
+  </p>
+
+  <footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+
+</footer>
+
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
