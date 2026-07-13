@@ -6,14 +6,14 @@
     <link>https://patchedatlas.com</link>
     <description>A podcast about technology, security and privacy.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 07:05:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 06:18:04 +0000</lastBuildDate>
     <itunes:author>ProbablyEffex</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
       <itunes:name>ProbablyEffex</itunes:name>
       <itunes:email>admin@patchedatlas.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://patchedatlas.com/img/podcast_cover.png" />
+    <itunes:image href="https://patchedatlas.com/img/cover.png" />
     <image>
       <url>https://patchedatlas.com/img/cover.png</url>
       <title>Patched Atlas</title>
@@ -32,6 +32,45 @@
       <itunes:summary>AI has been accused of a lot of things, but let's not discount the driving force behind AI..</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episode>001</itunes:episode>
+    </item>
+    <item>
+      <title>GDPR and Weaponized Consent</title>
+      <description>In the years since GDPR was implemented, the internet has become a hostile place. How much can be blamed on this initiative estabished in the name of protection?</description>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://media.patchedatlas.com/episodes/2026-06-14-episode-002.mp3</guid>
+      <enclosure url="https://media.patchedatlas.com/episodes/2026-06-14-episode-002.mp3" length="14178768" type="audio/mpeg"/>
+      <itunes:title>GDPR and Weaponized Consent</itunes:title>
+      <itunes:author>ProbablyEffex</itunes:author>
+      <itunes:duration>00:16:26</itunes:duration>
+      <itunes:summary>In the years since GDPR was implemented, the internet has become a hostile place. How much can be blamed on this initiative estabished in the name of protection?</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>2</itunes:episode>
+    </item>
+    <item>
+      <title>VPNs sold by FUD</title>
+      <description>Everyone considers VPNs the cornerstone of security, but what are they really doing, and are they actually helping?</description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://media.patchedatlas.com/episodes/2026-06-30-episode-003.mp3</guid>
+      <enclosure url="https://media.patchedatlas.com/episodes/2026-06-30-episode-003.mp3" length="9865512" type="audio/mpeg"/>
+      <itunes:title>VPNs sold by FUD</itunes:title>
+      <itunes:author>ProbablyEffex</itunes:author>
+      <itunes:duration>00:11:48</itunes:duration>
+      <itunes:summary>Everyone considers VPNs the cornerstone of security, but what are they really doing, and are they actually helping?</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>3</itunes:episode>
+    </item>
+    <item>
+      <title>The Realities of ChatControl</title>
+      <description>ChatControl 1.0 was just forced back onto the agenda of the European parliment. Let's cut through the FUD and talk about what that actually means.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://media.patchedatlas.com/episodes/2026-07-13-episode-004.mp3</guid>
+      <enclosure url="https://media.patchedatlas.com/episodes/2026-07-13-episode-004.mp3" length="19786968" type="audio/mpeg"/>
+      <itunes:title>The Realities of ChatControl</itunes:title>
+      <itunes:author>ProbablyEffex</itunes:author>
+      <itunes:duration>00:22:26</itunes:duration>
+      <itunes:summary>ChatControl 1.0 was just forced back onto the agenda of the European parliment. Let's cut through the FUD and talk about what that actually means.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>4</itunes:episode>
     </item>
   </channel>
 </rss>
